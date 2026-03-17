@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'flaticon-forex';
+  src:  url('../fonts/flaticon-forex.eot');
+  src:  url('../fonts/flaticon-forex.eot#iefix') format('embedded-opentype'),
+    url('../fonts/flaticon-forex.ttf') format('truetype'),
+    url('../fonts/flaticon-forex.woff') format('woff'),
+    url('../fonts/flaticon-forex.svg#flaticon-forex') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.flaticon-forex {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'flaticon-forex' !important;
+  /*speak: never; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-forex-arrow-right:before {
+  content: "\e900";
+}
+.flaticon-forex-booking-1:before {
+  content: "\e901";
+}
+.flaticon-forex-Capa_1:before {
+  content: "\e902";
+}
+.flaticon-forex-check-7-2:before {
+  content: "\e903";
+}
+.flaticon-forex-Frame:before {
+  content: "\e904";
+}
+.flaticon-forex-Frame-1:before {
+  content: "\e905";
+}
+.flaticon-forex-Layer_1:before {
+  content: "\e906";
+}
+.flaticon-forex-Layer_1-1:before {
+  content: "\e907";
+}
+.flaticon-forex-Layer_1-2:before {
+  content: "\e908";
+}
+.flaticon-forex-Layer_1-3:before {
+  content: "\e909";
+}
+.flaticon-forex-Layer_1-4:before {
+  content: "\e90a";
+}
+.flaticon-forex-Layer_1-5:before {
+  content: "\e90b";
+}
+.flaticon-forex-Layer_1-6:before {
+  content: "\e90c";
+}
+.flaticon-forex-Layer_1-7:before {
+  content: "\e90d";
+}
+.flaticon-forex-Layer_1-8:before {
+  content: "\e90e";
+}
+.flaticon-forex-Layer_1-9:before {
+  content: "\e90f";
+}
+.flaticon-forex-Layer_1-10:before {
+  content: "\e910";
+}
+.flaticon-forex-Layer_1-11:before {
+  content: "\e911";
+}
+.flaticon-forex-Layer_1-12:before {
+  content: "\e912";
+}
+.flaticon-forex-Layer_1-13:before {
+  content: "\e913";
+}
+.flaticon-forex-Layer_1-14:before {
+  content: "\e914";
+}
+.flaticon-forex-Layer_1-15:before {
+  content: "\e915";
+}
+.flaticon-forex-Layer_1-16:before {
+  content: "\e916";
+}
+.flaticon-forex-Layer_1-17:before {
+  content: "\e917";
+}
+.flaticon-forex-Layer_1-18:before {
+  content: "\e918";
+}
+.flaticon-forex-Layer_1-19:before {
+  content: "\e919";
+}
+.flaticon-forex-Layer_1-20:before {
+  content: "\e91a";
+}
+.flaticon-forex-Layer_1-21:before {
+  content: "\e91b";
+}
+.flaticon-forex-Layer_1-22:before {
+  content: "\e91c";
+}
+.flaticon-forex-plus-1-2:before {
+  content: "\e91d";
+}
+.flaticon-forex-Polygon-1:before {
+  content: "\e91e";
+}
+.flaticon-forex-star:before {
+  content: "\e91f";
+}
+.flaticon-forex-up-right-arrow-1-1:before {
+  content: "\e920";
+}
+.flaticon-forex-Vector-1:before {
+  content: "\e921";
+}
+.flaticon-forex-Vector-2:before {
+  content: "\e922";
+}
