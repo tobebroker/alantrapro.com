@@ -372,7 +372,7 @@ textarea.form-control {
   background-color: var(--theme-color-dark);
 }
 .dark-layout .preloader:after {
-  background-image: url(../images/logo.png);
+  background-image: url(../images/logo.png?v=1);
 }
 .dark-layout .sticky-header {
   background-color: var(--theme-color-dark);
@@ -1099,7 +1099,7 @@ Scroll To Top style
   margin-top: -60px;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url(../images/logo-2.png);
+  background-image: url(../images/logo-2.png?v=1);
   background-size: 84px;
   content: "";
 }
