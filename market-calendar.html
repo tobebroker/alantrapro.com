@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Contact Us</title>
+    <title>Market Calendar</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -154,122 +154,64 @@
     <!-- End Main Header -->
 
     <!-- Start main-content -->
-    <section class="page-title" style="background-image: url(images/background/3.jpg);">
+    <section class="page-title" style="background-image: url(images/background/3.jpg); margin-bottom: 20px;">
         <div class="auto-container">
             <div class="title-outer text-center">
-                <h1 class="title">Contact Us</h1>
-                <ul class="page-breadcrumb">
-                    <li><a href="index.html">Home</a></li>
-                    <li>Contact</li>
-                </ul>
+                <h1 class="title">Market Calendar</h1>
             </div>
         </div>
     </section>
     <!-- end main-content -->
 
-    <!--Contact Details Start-->
-    <section class="contact-details">
-        <div class="container pt-110 pb-70">
-            <div class="row">
-                <div class="col-xl-7 col-lg-6">
-                    <div class="sec-title">
-                        <h2>Feel free to write</h2>
-                    </div>
-                    <!-- Contact Form -->
-                    <form id="contact_form" name="contact_form" action="includes/sendmail.php" method="post">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="mb-3">
-                                    <input name="form_name" class="form-control" type="text" placeholder="Enter Name">
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="mb-3">
-                                    <input name="form_email" class="form-control required email" type="email"
-                                           placeholder="Enter Email">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="mb-3">
-                                    <input name="form_subject" class="form-control required" type="text"
-                                           placeholder="Enter Subject">
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="mb-3">
-                                    <input name="form_phone" class="form-control" type="text" placeholder="Enter Phone">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mb-3">
-                            <textarea name="form_message" class="form-control required" rows="7"
-                                      placeholder="Enter Message"></textarea>
-                        </div>
-                        <div class="mb-5">
-                            <input name="form_botcheck" class="form-control" type="hidden" value=""/>
-                            <button type="submit" class="theme-btn btn-style-one mb-2 mb-sm-0 me-2"
-                                    data-loading-text="Please wait...">
-                                <i class="icon-left fa fa-arrow-right"></i>
-                                <span class="btn-title">Send message</span>
-                                <i class="icon-right fa fa-arrow-right"></i>
-                            </button>
-                            <button type="reset" class="theme-btn btn-style-two" data-loading-text="Please wait...">
-                                <i class="icon-left fa fa-arrow-right"></i>
-                                <span class="btn-title">Reset</span>
-                                <i class="icon-right fa fa-arrow-right"></i>
-                            </button>
-                        </div>
-                    </form>
-                    <!-- Contact Form Validation-->
-                </div>
-                <div class="col-xl-5 col-lg-6">
-                    <div class="contact-details__right">
-                        <div class="sec-title">
-                            <h2>Get in touch with us</h2>
-                            <div class="text">
-                                Have questions or need help? Get in touch with us anytime—we’re here to support you and
-                                provide the guidance you need.
-                            </div>
-                        </div>
-                        <ul class="list-unstyled contact-details__info">
-                            <li>
-                                <div class="icon">
-                                    <span class="fal fa-phone-plus"></span>
-                                </div>
-                                <div class="text">
-                                    <h6 class="mb-1">Have any question?</h6>
-                                    <a href="tel:+441252954090"><span>Free</span>+441252954090</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="fal fa-envelope"></span>
-                                </div>
-                                <div class="text">
-                                    <h6 class="mb-1">Write email</h6>
-                                    <a href="mailto:support@alantrapro.com">support@alantrapro.com</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="fal fa-location-arrow"></span>
-                                </div>
-                                <div class="text">
-                                    <h6 class="mb-1">Visit anytime</h6>
-                                    <span>Alantra, 5th Floor 1 Le Pole Square, Ship Street Great Dublin, DO8E6PD Ireland</span>
-                                    <hr/>
-                                    <span>Alantra, 5th Floor 1 Le Pole Square, Ship Street Great Dublin, DO8E6PD Ireland</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+    <div class="container">
+        <div class="tradingview-widget-container" style="width: 1100px; height: 600px;">
+            <iframe scrolling="no" allowtransparency="true" frameborder="0"
+                    src="https://www.tradingview-widget.com/embed-widget/events/?locale=en#%7B%22colorTheme%22%3A%22light%22%2C%22isTransparent%22%3Afalse%2C%22width%22%3A1100%2C%22height%22%3A600%2C%22importanceFilter%22%3A%22-1%2C0%2C1%22%2C%22utm_source%22%3A%22capital-adv.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22events%22%2C%22page-uri%22%3A%22capital-adv.com%2Fmarket-calendar%22%7D"
+                    title="events TradingView widget" lang="en"
+                    style="user-select: none; box-sizing: border-box; display: block; height: calc(100% - 32px); width: 100%;"></iframe>
+            <div class="tradingview-widget-copyright"><a
+                    href="https://www.tradingview.com/markets/currencies/economic-calendar/?utm_source=capital-adv.com&amp;utm_medium=widget_new&amp;utm_campaign=events"
+                    rel="noopener" target="_blank"><span class="blue-text">Economic Calendar</span></a> by TradingView
             </div>
+
+            <style>
+                .tradingview-widget-copyright {
+                    font-size: 13px !important;
+                    line-height: 32px !important;
+                    text-align: center !important;
+                    vertical-align: middle !important;
+                    /* @mixin sf-pro-display-font; */
+                    font-family: -apple-system, BlinkMacSystemFont, 'Trebuchet MS', Roboto, Ubuntu, sans-serif !important;
+                    color: #B2B5BE !important;
+                }
+
+                .tradingview-widget-copyright .blue-text {
+                    color: #2962FF !important;
+                }
+
+                .tradingview-widget-copyright a {
+                    text-decoration: none !important;
+                    color: #B2B5BE !important;
+                }
+
+                .tradingview-widget-copyright a:visited {
+                    color: #B2B5BE !important;
+                }
+
+                .tradingview-widget-copyright a:hover .blue-text {
+                    color: #1E53E5 !important;
+                }
+
+                .tradingview-widget-copyright a:active .blue-text {
+                    color: #1848CC !important;
+                }
+
+                .tradingview-widget-copyright a:visited .blue-text {
+                    color: #2962FF !important;
+                }
+            </style>
         </div>
-    </section>
-    <!--Contact Details End-->
+    </div>
 
     <!-- Main Footer -->
     <footer class="main-footer" style="margin-top: 20px;">
