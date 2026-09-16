@@ -76,31 +76,45 @@ var THEMEMASCOT = {};
         });
     }
 
-    //Mobile Nav Hide Show
+    // Mobile Nav Hide Show
     if ($('.mobile-menu').length) {
 
+        // Copy desktop navigation to mobile menu
         var mobileMenuContent = $('.main-header .main-menu .navigation').html();
 
         $('.mobile-menu .navigation').append(mobileMenuContent);
         $('.sticky-header .navigation').append(mobileMenuContent);
-        $('.mobile-menu .close-btn').on('click', function () {
+
+        // Close mobile menu
+        $('.mobile-menu .close-btn').on('click', function (e) {
+            e.preventDefault();
             $('body').removeClass('mobile-menu-visible');
         });
 
-        //Dropdown Button
-        $('.mobile-menu li.dropdown .dropdown-btn').on('click', function () {
-            $(this).prev('ul').slideToggle(500);
-            $(this).toggleClass('active');
-            $(this).prev('.mega-menu').slideToggle(500);
+        // Mobile dropdown
+        $('.mobile-menu').on('click', '.dropdown-btn', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            var $button = $(this);
+            var $dropdown = $button.siblings('ul').first();
+
+            // Toggle dropdown
+            $dropdown.stop(true, true).slideToggle(300);
+
+            // Toggle arrow state
+            $button.toggleClass('active');
         });
 
-        //Menu Toggle Btn
-        $('.mobile-nav-toggler').on('click', function () {
+        // Mobile menu open
+        $('.mobile-nav-toggler').on('click', function (e) {
+            e.preventDefault();
             $('body').addClass('mobile-menu-visible');
         });
 
-        //Menu Toggle Btn
-        $('.mobile-menu .menu-backdrop, .mobile-menu .close-btn').on('click', function () {
+        // Mobile menu close
+        $('.mobile-menu .menu-backdrop, .mobile-menu .close-btn').on('click', function (e) {
+            e.preventDefault();
             $('body').removeClass('mobile-menu-visible');
         });
 
